@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# stylemuse
+# Stylemuse-Frontend
 
 StyleMuse — Flutter Frontend - Your Personal AI Fashion Companion
 
@@ -10,22 +10,23 @@ StyleMuse is a full-stack AI-powered fashion app built with Flutter. It lets use
 This repository contains the Flutter frontend only.
 The backend (Node.js + Express + MongoDB) lives in stylemuse_backend/.
 
-✨ Features
-Feature	Description:
-      🔐 Secure Auth	JWT login/signup with bcrypt-hashed passwords stored on device via flutter_secure_storage
-      👗 Discover	20 curated outfits in horizontal scroll rows grouped by style tag
-      🔖 Save Outfits	Bookmark looks from Discover, synced to backend
-      🤖 AI Style Generator	Chat with Claude AI — type freely or use quick chips
-      👚 Digital Closet	Add clothes via camera/gallery — auto-uploaded to Cloudinary
-      📅 Style Calendar	Log what you wear daily, view monthly outfit history
-      📊 Wardrobe Stats	Most worn, least worn, cost-per-wear analytics
-      🪞 AR Try-On	Place 3D outfit mannequin in real space using camera + gyroscope
-      📷 Camera Overlay	Live camera with color palette, item cards, and style tag overlaid
-      🌓 Dark / Light Theme	Persisted theme toggle across sessions
-      📱 Screenshots — Screen Map
-      Splash → Login/Signup → Main App (5 tabs)
-      Discover → Style AI → Closet → Profile → AR Hub
-🗂️ Project Structure
+| Feature                   | Description                                                                               |
+| ------------------------- | ----------------------------------------------------------------------------------------- |
+| 🔐 **Secure Auth**        | JWT login/signup with bcrypt-hashed passwords stored on device via flutter_secure_storage |
+| 👗 **Discover**           | 20 curated outfits in horizontal scroll rows grouped by style tag                         |
+| 🔖 **Save Outfits**       | Bookmark looks from Discover, synced to backend                                           |
+| 🤖 **AI Style Generator** | Chat with Claude AI — type freely or use quick chips                                      |
+| 👚 **Digital Closet**     | Add clothes via camera/gallery — auto-uploaded to Cloudinary                              |
+| 📅 **Style Calendar**     | Log what you wear daily, view monthly outfit history                                      |
+| 📊 **Wardrobe Stats**     | Most worn, least worn, cost-per-wear analytics                                            |
+| 🪞 **AR Try-On**          | Place 3D outfit mannequin in real space using camera + gyroscope                          |
+| 📷 **Camera Overlay**     | Live camera with color palette, item cards, and style tag overlaid                        |
+| 🌓 **Dark / Light Theme** | Persisted theme toggle across sessions                                                    |
+
+
+
+#🗂️ Project Structure
+
 lib/
 ├── config/
 │   └── api_config.dart
@@ -79,9 +80,9 @@ lib/
 │   ├── api_service.dart
 │   ├── auth_service.dart
 │   ├── ai_service.dart
-│   ├── outfit_service.dart
+│   ├── outfit_service.dart.
 │   ├── image_upload_service.dart
-│   ├── background_removal_service.dart
+│   ├── background_removal_service.dart.
 │
 ├── theme/
 │   └── app_theme.dart
@@ -91,11 +92,10 @@ lib/
 |    ├── outfit_card.dart
 |    ├── custom_button.dart
 |    └── custom_text_field.dart
-|
+|    
 └── main.dart
 
-
-🚀 Getting Started
+#🚀 Getting Started
 Prerequisites
 Flutter SDK >= 3.0.0
 Dart SDK >= 3.0.0
@@ -139,7 +139,7 @@ Users can describe outfits or use quick chips.
 🪞 AR Features
 3D mannequin placement
 Camera overlays
-Gyroscope movement
+Gyroscope movement 
 Screenshot capture
 
 🏗️ Build APK
@@ -150,9 +150,6 @@ Backend not running → check API URL
 Emulator issue → use 10.0.2.2
 Gradle error → clean build
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
+
 # stylemuse_frontend
 >>>>>>> c1410ad63aeb6224c74bee6e46e5739f27c7ca9a
