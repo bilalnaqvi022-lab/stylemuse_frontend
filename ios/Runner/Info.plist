@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key><string>StyleMuse</string>
+    <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleName</key><string>StyleMuse</string>
+    <key>CFBundleShortVersionString</key><string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleVersion</key><string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key><true/>
+    <key>NSCameraUsageDescription</key><string>StyleMuse needs camera access for AR Try-On and live style overlay features.</string>
+    <key>NSPhotoLibraryUsageDescription</key><string>StyleMuse needs photo library access to import and save clothing photos.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key><string>StyleMuse would like to save AR and outfit photos to your photo library.</string>
+    <key>NSFaceIDUsageDescription</key><string>StyleMuse uses Face ID to keep your account secure.</string>
+    <key>UILaunchStoryboardName</key><string>LaunchScreen</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array><string>UIInterfaceOrientationPortrait</string></array>
+    <key>ITSAppUsesNonExemptEncryption</key><false/>
+</dict>
+</plist>
